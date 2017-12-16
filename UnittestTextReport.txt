@@ -1,0 +1,17 @@
+test_add (test_fn.TestFn) ... ok
+test_divide (test_fn.TestFn) ... FAIL
+test_minus (test_fn.TestFn) ... ok
+test_multi (test_fn.TestFn) ... ok
+
+======================================================================
+FAIL: test_divide (test_fn.TestFn)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/oscar/Python/unittest.io/test_fn.py", line 20, in test_divide
+    self.assertEqual(2,divide(5,2))
+AssertionError: 2 != 2.5
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=1)

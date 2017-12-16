@@ -19,8 +19,17 @@ class TestFn(unittest.TestCase):
         self.assertEqual(2,divide(6,3))
         self.assertEqual(2,divide(5,2))
 
+
+#定义测试类
+class TestFn2(unittest.TestCase):
+
+    def test_add(self):
+        self.assertEqual(3, add(1,2))
+    
+
+
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
 
 
 
